@@ -3,7 +3,7 @@ public class Aluno extends Pessoa{
     private  String curso;
 
     public void PagarMensalidade(){
-        System.out.println("Pagando Mensalidade de Aluno");
+        System.out.println("Pagando Mensalidade do aluno " + this.getNome());
     }
 
     public int getMatricula() {
