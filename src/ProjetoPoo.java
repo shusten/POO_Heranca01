@@ -14,6 +14,15 @@ public class ProjetoPoo {
         a1.setSexo("M");
         a1.PagarMensalidade();
 
+        Bolsista b1 = new Bolsista();
+        b1.setNome("Cláudio");
+        b1.setMatricula(1111);
+        b1.setCurso("Informática");
+        b1.setIdade(16);
+        b1.setSexo("M");
+        b1.PagarMensalidade();
+
+
     }
 
 }
