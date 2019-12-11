@@ -23,6 +23,10 @@ public class ProjetoPoo {
         b1.setSexo("M");
         b1.PagarMensalidade();
 
+        Tecnico t1 = new Tecnico();
+        t1.setNome("Lídia");
+        t1.praticar();
+
 
     }
 
