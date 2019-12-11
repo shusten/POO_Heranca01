@@ -15,10 +15,11 @@ public class ProjetoPoo {
         a1.PagarMensalidade();
 
         Bolsista b1 = new Bolsista();
-        b1.setNome("Cláudio");
-        b1.setMatricula(1111);
+        b1.setNome("Jubileu");
+        b1.setMatricula(1112);
         b1.setCurso("Informática");
         b1.setIdade(16);
+        b1.setBolsa(12);
         b1.setSexo("M");
         b1.PagarMensalidade();
 
